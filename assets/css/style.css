@@ -74,6 +74,9 @@ h1{
     background-color: #01adba;
     color: gray;
 }
+.prim_nav a:focus{
+    background-color: #01adba;
+}
 
 
 .sec_nav{
@@ -106,6 +109,11 @@ h1{
   background-color: #01adba;
 }
 .sec_nav a:active {
+  background-color: #01adba;
+}
+.sec_nav a:focus{
+  display: block;
+  padding: 5px;
   background-color: #01adba;
 }
 
@@ -249,13 +257,30 @@ input:focus {
   padding: 10px;
   letter-spacing: 1px;
   color: white;
-  width: 100%;
+  width: 68%;
   font-size: 160%;
+  float: left;
+  margin-right: 2%;
 }
-.button:hover,.button:focus{
+.button:hover,.button:focus,.button-res:hover,.button-res:focus{
   background-color: #0aa0bb;
 }
-
+.button-res{
+  float: left;
+  width: 30%;
+  height: 100%;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: gray;
+  border:1px solid lightgray;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 160%;
+}
 
 .footer{
 	position: fixed;
