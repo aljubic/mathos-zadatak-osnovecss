@@ -49,7 +49,6 @@ h1{
 }
 .tab-group a{
   text-decoration: none;
-  
 }
 
 .prim_nav{
@@ -83,6 +82,7 @@ h1{
 	background-color: gray;
 	width: 100%;
 	display: block;
+  padding: 10px 0;
 }
 .sec_nav ul{
 	padding-left: 10px;
@@ -306,6 +306,7 @@ input:focus {
     font-size: 25px;
     padding-bottom: 0;
   }
+  
   .reg_form h3{
     padding-top: 30px;
     margin-bottom: 0;
@@ -320,6 +321,7 @@ input:focus {
   .button-res{
     margin:0;
   }
+  
 }
 
 
@@ -329,6 +331,10 @@ input:focus {
     width: 100%;
   }
  
+  .prim_nav{
+    padding-top: 10px;
+  }
+  
   .prim_nav ul li{
     display: inline-block;
   }
@@ -345,7 +351,8 @@ input:focus {
     margin-top:0;
     width: 100%;
   }
-    .prim_nav li {
+  
+  .prim_nav li {
     float: left;
     width: 50%;
     padding-left: 2.5%;
@@ -358,20 +365,20 @@ input:focus {
   .field-wrap{
     margin-top: 10px;
   } 
-  
+
 }
 
 @media all and (max-width: 40em) {
-  .sec_nav li{
+  .sec_nav li {
     float: left;
     width: 50%;
   }
   
-  .sec_nav ul{
+  .sec_nav ul {
     padding: 0;
   }
   
-  .reg_form{
+  .reg_form {
     margin-top: 16px;
   }
 
